@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./Pages/NotFound";
 import "animate.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -20,6 +20,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
